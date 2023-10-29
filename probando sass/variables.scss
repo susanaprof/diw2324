@@ -1,0 +1,41 @@
+//variables de colores
+$gris: #beacacef;
+$titulo-bg: $gris;
+$link-normal: black;
+$link-visited: blue;
+$link-active: green;
+
+//elementos del título
+.titulo {
+    background-color: $titulo-bg;
+}
+
+$sizes: (40px,80px,160px);
+$breakpoint: (
+'pequeño':576px,
+'mediano':768px,
+'grande':992px,
+);
+
+//interpolación en selectores
+$tipo-boton:"error";
+$btn-color: red;
+.btn-#{$tipo-boton} {
+    background-color: $btn-color;
+};
+
+//interpolación en uso de funciones
+$fondo: "img/fondos/default.png";
+.container {
+    background-image: url('#{$fondo}');
+}
+
+//interpolación en comentarios
+$autor:"Susana";
+/* web desarrollada por #{$autor} */
+
+//Anidamiento básico
+a {
+    color: $link-normal;
+ 
+}

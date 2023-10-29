@@ -1,0 +1,18 @@
+.titulo {
+  background-color: rgba(190, 172, 172, 0.937254902);
+}
+
+.btn-error {
+  background-color: red;
+}
+
+.container {
+  background-image: url("img/fondos/default.png");
+}
+
+/* web desarrollada por Susana */
+a {
+  color: black;
+}
+
+/*# sourceMappingURL=estilo.css.map */
